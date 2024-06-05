@@ -12,7 +12,7 @@ import TaskPage from './pages/TaskPage'
 axios.defaults.baseURL = "https://tasksps-api.vercel.app";
 axios.defaults.withCredentials = true
 axios.defaults.headers.get['Accepts'] = 'application/json';
-axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = 'https://tasksps-api.vercel.app';
 axios.defaults.headers.common['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept';
 
 
