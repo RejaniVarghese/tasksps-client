@@ -1,6 +1,5 @@
 import React from 'react'
 import MyCalendar from '../components/MyCalendar'
-MyCalendar
 
 const TaskPage = () => {
   return (
