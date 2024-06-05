@@ -9,7 +9,7 @@ import axios from 'axios'
 import { UserContextProvider } from './contexts/userContext'
 import TaskPage from './pages/TaskPage'
 
-//axios.defaults.baseURL = "https://tasksps-api.vercel.app";
+axios.defaults.baseURL = "https://tasksps-api.vercel.app";
 axios.defaults.withCredentials = true
 axios.defaults.headers.get['Accepts'] = 'application/json';
 axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
